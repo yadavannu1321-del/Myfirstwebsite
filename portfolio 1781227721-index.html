@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f4f4;
+            margin:0;
+            padding:20px;
+        }
+
+        .container{
+            max-width:900px;
+            margin:auto;
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h1,h3,h5{
+            text-align:center;
+            margin:5px;
+        }
+
+        img{
+            display:block;
+            margin:auto;
+            border-radius:10px;
+        }
+
+        nav{
+            text-align:center;
+            margin:15px 0;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:blue;
+            font-weight:bold;
+            margin:0 10px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:10px;
+        }
+
+        table,th,td{
+            border:2px solid black;
+        }
+
+        th{
+            background:yellow;
+        }
+
+        th,td{
+            padding:10px;
+            text-align:center;
+        }
+
+        input,select,textarea{
+            width:100%;
+            padding:8px;
+            margin-top:5px;
+            margin-bottom:10px;
+            border:1px solid gray;
+            border-radius:5px;
+            box-sizing:border-box;
+        }
+
+        button{
+            background:#007bff;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#0056b3;
+        }
+
+        @media(max-width:600px){
+            body{
+                padding:10px;
+            }
+
+            table{
+                font-size:14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>My Portfolio</h1>
+
+<h3>Yadav Annu</h3>
+
+<h5>Class 12 Student</h5>
+
+<img src="https://picsum.photos/200/120" alt="Profile Photo">
+
+<hr>
+
+<nav>
+    <a href="#">About</a> |
+    <a href="#">Education</a> |
+    <a href="#">Blog</a>
+</nav>
+
+<hr>
+
+<h3><u>About Me</u></h3>
+
+<p>
+Hello! My name is Yadav Annu. I am learning HTML in Class 12th.
+I like Web Designing, Programming and Technology.
+</p>
+
+<h3><u>Education</u></h3>
+
+<table>
+    <tr>
+        <th>Class</th>
+        <th>School</th>
+        <th>Percentage</th>
+    </tr>
+
+    <tr>
+        <td>10th</td>
+        <td>RPA</td>
+        <td>86%</td>
+    </tr>
+
+    <tr>
+        <td>11th</td>
+        <td>RPA</td>
+        <td>90%</td>
+    </tr>
+</table>
+
+<h3><u>Skills</u></h3>
+
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Python</li>
+</ul>
+
+<h3><u>Projects</u></h3>
+
+<ol>
+    <li>Portfolio Website</li>
+    <li>Drawing</li>
+    <li>Online Quiz</li>
+</ol>
+
+<h3><u>Audio</u></h3>
+
+<audio controls>
+    <source src="">
+</audio>
+
+<h3><u>Video</u></h3>
+
+<video controls width="300">
+    <source src="">
+</video>
+
+<br><br>
+
+<h3><u>Contact Me</u></h3>
+
+<form>
+
+    Name:
+    <input type="text" placeholder="Your Name">
+
+    Email:
+    <input type="email" placeholder="xyz@gmail.com">
+
+    Phone Number:
+    <input type="number" placeholder="1234567890">
+
+    Gender:<br>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+
+    <br><br>
+
+    City:
+    <select>
+        <option>Nallasopara</option>
+        <option>Vasai</option>
+        <option>Virar</option>
+    </select>
+
+    Address:
+    <textarea rows="4"></textarea>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
